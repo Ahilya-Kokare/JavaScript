@@ -19,3 +19,4 @@ console.log(undefined < 0);
 // === :- Strict check. Ckeck strictly means Checks datatypes too.
 console.log("2" === 2);
 
+//////
