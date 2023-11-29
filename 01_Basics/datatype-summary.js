@@ -34,3 +34,30 @@ const myFunction = function(){
 console.log(typeof myFunction);
 
 //https://262.ecma-international.org/5.1/# sec-11.4.3
+
+
+//---------------------------------------------------------------
+
+// Two types of memory
+// 1)Stack :- Primitive. Copy of data 
+// 2)Heap :- Non-primitive. Reference of data
+
+let myYoutubename = "ahilyakokaredotcom"
+
+let anothername = myYoutubename
+anothername = "ahilya"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "kokare@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
